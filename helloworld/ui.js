@@ -1,10 +1,13 @@
 // "ui";
 // ui.layout(
 //     <horizontal>
-//         <button text="hahaha" onclick="func1()"/>
+//         <button text="hahaha" id="demo"/>
 //         <button text="hahaha1"/>
 //     </horizontal>
 // );
+// ui.demo.click(()=>{
+//     alert(1)
+// })
 var w = floaty.window(
     <frame gravity="center">
         <text id="text">悬浮文字</text>
@@ -13,6 +16,6 @@ var w = floaty.window(
 setTimeout(()=>{
     w.close();
 }, 2000);
-function func1(){
-    alert(11)
-}
+// function func1(){
+//     alert(11)
+// }
