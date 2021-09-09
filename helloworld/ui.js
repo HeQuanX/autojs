@@ -1,10 +1,10 @@
-"ui";
-ui.layout(
-    <horizontal>
-        <button text="hahaha" onclick="func1()"/>
-        <button text="hahaha1"/>
-    </horizontal>
-);
+// "ui";
+// ui.layout(
+//     <horizontal>
+//         <button text="hahaha" onclick="func1()"/>
+//         <button text="hahaha1"/>
+//     </horizontal>
+// );
 var w = floaty.window(
     <frame gravity="center">
         <text id="text">悬浮文字</text>
